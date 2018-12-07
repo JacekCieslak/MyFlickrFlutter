@@ -31,7 +31,20 @@ class SearchPage extends StatelessWidget {
                       );
                     } else {
                       return Container(
-                          child: Center(child: CircularProgressIndicator()));
+                          child: Center(
+                              child: Card(
+                        child: Container(
+                          child: Column(
+                            children: <Widget>[
+                              Image.asset("res/meme.gif"),
+                              Text(
+                                "Search your images",
+                                style: TextStyle(fontSize: 24.0),
+                              )
+                            ],
+                          ),
+                        ),
+                      )));
                     }
                   }),
             ),
