@@ -31,6 +31,6 @@ pipeline {
             steps {
                 sh "dartanalyzer --options analysis_options.yaml ."
             }
-
+        }
     }
 }
