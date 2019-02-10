@@ -1,7 +1,7 @@
 analyzer:
   strong-mode:
     implicit-casts: false
-    # implicit-dynamic: false
+    implicit-dynamic: false
 
   # Add this to your project `analysis_options.yaml` to enable the built_value
   # analyzer plugin. You should also add the top level `plugins` clause below.
